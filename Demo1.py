@@ -9,4 +9,17 @@ noun = input("Enter a noun?")
 verb = input("Enter a verb?")
 print(f"{article} {noun} {verb}")
 
-print("Deze is correct!")
+score = int(input("enter your score: "))
+if score < 60:
+    print("Fail!")
+else:
+    print("Pass!!!!")
+
+
+income = int(input("How much do you earn? "))
+if income < 20000:
+    print("You don't have to pay taxes!")
+elif income < 50000:
+    print("You have to pay 30%")
+else:
+    print("You have to pay 60%")
