@@ -10,3 +10,7 @@ verb = input("Enter a verb?")
 print(f"{article} {noun} {verb}")
 
 print("Deze is correct!")
+
+Convert mile to kilometer
+miles = int(input("Enter miles"))
+print(f"{miles} miles is {miles*1.6} kilometers")
