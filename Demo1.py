@@ -23,3 +23,9 @@ elif income < 50000:
     print("You have to pay 30%")
 else:
     print("You have to pay 60%")
+
+print("Deze is correct!")
+
+Convert mile to kilometer
+miles = int(input("Enter miles"))
+print(f"{miles} miles is {miles*1.6} kilometers")
