@@ -1,4 +1,4 @@
-name = input("What is your name?")
+name = input("Enter your name?")
 print(f"Your name is {len(name)} characters long")
 
 Sentence
